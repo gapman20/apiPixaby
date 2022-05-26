@@ -15,6 +15,7 @@ li{
     list-style: none;
 }
 
+/* Header */
 
 .header{
     display: flex;
@@ -80,6 +81,9 @@ li{
     color: black;
 }
 
+
+/* MAIN */
+
 .container{
     position: relative;
     width: 100%;
@@ -95,7 +99,7 @@ li{
     flex-direction: column;
     text-align: center;
     padding: 150px 16px 16px;
-    background-color: blueviolet;
+    background-color: #808080c1;
 }
 
 .content h1{
@@ -120,6 +124,7 @@ li{
 }
 
 .container_form .searchButton{
+    cursor: pointer;
     background: none;
     border: none;
     font-size: 16px;
@@ -157,4 +162,22 @@ li{
 .linkEnd{
     color: #f7f7f7;
     margin: 112px 0 16px;
+}
+
+/* CARDS */
+
+.cardImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    
+    background-color: #7d889399;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
 }
